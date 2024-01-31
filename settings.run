@@ -33,7 +33,7 @@ echo ""
 # Create procedures
 echo "Creating required procedures"
 if [[ -z $golbat_host ]] ;then
-  cp $folder/default_files/procedures.sql.default $folder/procedures.sql
+  cp $folder/default_files/procedure.sql.default $folder/procedures.sql
 else
   cp $folder/default_files/proceduresGobatExternal.sql.default $folder/procedures.sql
 fi
